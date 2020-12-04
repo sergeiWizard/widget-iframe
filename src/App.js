@@ -33,7 +33,7 @@ const App = () => {
             <div className="waivio-btn" style={{background: openReserved && 'beige'}} onClick={renderReservedPage}>Reserved</div>
         </span>
 
-        <span style={{border: '1px solid black', width: '1000px', height: '1000px'}}>
+        <span style={{border: '1px solid black', width: '800px', height: '750px'}}>
             {openAll && <WidgetAll />}
             {openEligible && <WidgetEligible />}
             {openReserved && <WidgetReserved />}
