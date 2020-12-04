@@ -5,8 +5,8 @@ const WidgetEligible = () => {
         <iframe
             className="waivio"
             src={`http://localhost:3000/rewards/active?display=widget&userName=vallon&ref=vallon`}
-            height="800"
-            width="750"
+            width="800"
+            height="750"
             frameBorder="0"
         >
             Can't load Rewards widget.
